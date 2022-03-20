@@ -1,12 +1,10 @@
 /* 
-
 KELOMPOK PRA PRAKTIKUM ALGORITMA PEMROGRAMAN 
 ANGGOTA :
 
 KRISNA CAKRA NINGRAT - 2100018449
 ANELA INDRA - 2100018454
 SASQIA AULIA NUR AINI - 2100018456
-
 */
 
 #include <iostream>
@@ -82,9 +80,9 @@ int main()
         cout << "\n\n---------- SALAH MEMASUKKAN PILIHAN ----------" << endl;
     }
   
-  cout << "=====================================" << endl;
+  cout << "==============================================" << endl;
   cout << " " << bil1 << operasi << bil2 << " = " << hasil << endl;
-  cout << "=====================================" << endl;
+  cout << "==============================================" << endl;
 
   return 0;
 }
