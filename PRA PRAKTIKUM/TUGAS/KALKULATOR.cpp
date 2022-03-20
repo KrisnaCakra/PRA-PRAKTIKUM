@@ -67,5 +67,26 @@ int main()
       	hasil = bil1 % bil2;
       	operasi = '%';
       	break;
+		  
+	  case 6:
+        hasil = pow (bil1,bil2);
+        operasi = '^';
+        break;
+
+      case 7:
+        hasil = sqrt (bil2);
+        operasi = 'V';
+        break;
+
+      default :
+        cout << "\n\n---------- SALAH MEMASUKKAN PILIHAN ----------" << endl;
+    }
+  
+  cout << "=====================================" << endl;
+  cout << " " << bil1 << operasi << bil2 << " = " << hasil << endl;
+  cout << "=====================================" << endl;
+
+  return 0;
+}
 
  
