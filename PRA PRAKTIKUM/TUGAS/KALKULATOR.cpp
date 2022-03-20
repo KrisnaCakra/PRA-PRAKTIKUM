@@ -28,10 +28,42 @@ int main()
   cout << "6. Perpangkatan" << endl;
   cout << "7. Akar (pilih nilai pada bilangan dua)" << endl;
   cout << "\n\nMasukkan Pilihan : ";
-cin >> pil;
+  cin >> pil;
   cout << "Masukkan Bilangan Pertama : ";
   cin >> bil1;
   cout << "Masukkan Bilangan Kedua : ";
   cin >> bil2;
+  cin >> pil;
+  cout << "Masukkan Bilangan Pertama : ";
+  cin >> bil1;
+  cout << "Masukkan Bilangan Kedua : ";
+  cin >> bil2;
+
+  switch(pil)
+    {
+      case 1:
+        hasil = bil1 + bil2;
+        operasi = '+';
+        break;
+      
+      case 2:
+        hasil = bil1 - bil2;
+        operasi = '-';
+        break;
+      
+      case 3:
+        hasil = bil1 * bil2;
+        operasi = 'x';
+        break;
+      
+      case 4:
+        hasil = bil1 / bil2;
+        operasi = '/';
+        break;
+        
+      case 5:
+      	hasil = bil1 % bil2;
+      	operasi = '%';
+      	break;
 
  
