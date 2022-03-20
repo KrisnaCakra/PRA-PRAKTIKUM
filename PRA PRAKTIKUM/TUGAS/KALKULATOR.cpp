@@ -1,6 +1,7 @@
 /* 
+
 KELOMPOK PRA PRAKTIKUM ALGORITMA PEMROGRAMAN 
-ANGGOTA :
+NAMA ANGGOTA :
 
 KRISNA CAKRA NINGRAT - 2100018449
 ANELA INDRA - 2100018454
@@ -8,8 +9,8 @@ SASQIA AULIA NUR AINI - 2100018456
 */
 
 #include <iostream>
-#include <string>
 #include <math.h>
+#include <string>
 using namespace std;
 
 int main()
@@ -18,8 +19,8 @@ int main()
   float hasil;
   string operasi;
   
-  cout << "TUGAS KELOMPOK PRATIKUM ALGORITMA PEMROGRAMAN" << endl;
-  cout << "------------------KALKULATOR-----------------" << endl;
+  cout << "TUGAS KELOMPOK PRA PRATIKUM ALGORITMA PEMROGRAMAN" << endl;
+  cout << "--------------------KALKULATOR-------------------" << endl;
   cout << "1. Penjumlahan" << endl;
   cout << "2. Pengurangan" << endl;
   cout << "3. Perkalian" << endl;
@@ -77,12 +78,12 @@ int main()
         break;
 
       default :
-        cout << "\n\n---------- SALAH MEMASUKKAN PILIHAN ----------" << endl;
+        cout << "\n\n------------ SALAH MEMASUKKAN PILIHAN ------------" << endl;
     }
   
-  cout << "==============================================" << endl;
+  cout << "========================================================" << endl;
   cout << " " << bil1 << operasi << bil2 << " = " << hasil << endl;
-  cout << "==============================================" << endl;
+  cout << "========================================================" << endl;
 
   return 0;
 }
